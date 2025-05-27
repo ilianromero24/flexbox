@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+header {
+  width: 100%;
+}
+
+/* Borde superior verde */
+.borde-verde {
+  height: 6px;
+  background-color: #088138;
+}
+
+/* Sección superior: sesión y carrito */
+.barra-sesion {
+  background-color: #088138;
+}
+
+.contenedor-sesion {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.acciones {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.acciones a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.acciones i {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #088138;
+}
+
+/* Sección central: logo y buscador */
+.barra-central {
+  background-color: #ffffff;
+  padding: 10px 30px;
+}
+
+.contenedor-central {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search input {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 220px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.espacio-derecha {
+  width: 5px; /* para que coincida visualmente con input de la izquierda */
+}
+
+/* Menú de navegación */
+.barra-menu {
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 12px 10px;
+  gap: 20px;
+}
+
+.menu a {
+  color: #7f8c8d;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #088138;
+}
+
+/* Sección inferior amarilla */
+.borde-amarillo {
+  background-color: #e3d314;
+  text-align: center;
+  padding: 6px;
+}
+
+.borde-amarillo p {
+  color: #333;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+.header-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #ffffff;
+}
+
+.cart {
+  font-size: 15px;
+  color: #7f8c8d;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
